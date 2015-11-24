@@ -1,4 +1,6 @@
-    var red = [0, 100, 63];
+        
+        
+        var red = [0, 100, 63];
         var orange = [40, 100, 60];
         var green = [75, 100, 40];
         var black = [196, 77, 55];
@@ -6,13 +8,10 @@
 
         var myName = "Rorschach";   
         letterColors = [red, orange, green, purple, black]
-        if(10 < 3) {
-            bubbleShape = "square";
-        }
-
-        else {
-            bubbleShape = "circle";
-        }
+       
+       //bubbleShape = "square";
+       bubbleShape = "circle";
+       
 
 
         drawName(myName, letterColors);
